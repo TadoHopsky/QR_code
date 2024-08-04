@@ -32,7 +32,7 @@ public class App {
     }
 
     public static String setLinkToQR(){
-        System.out.println("---Enter you Link---");
+        System.out.print("Enter you link : ");
         Scanner scanner = new Scanner(System.in);
         return scanner.nextLine();
     }
